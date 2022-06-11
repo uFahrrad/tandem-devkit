@@ -166,20 +166,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      "multiple_net_names|647700|1409700|77a043c9-1861-4017-b7f8-542364b8ebaa|75287ecb-ea87-4b29-b135-5ca89b01b4c0",
-      "multiple_net_names|647700|673100|c267f380-0c50-4747-9d28-6d18f3ec84ae|ff90845c-9f80-44c8-b12a-9f005da43e53",
-      "no_connect_connected|482600|1143000|99632307-103d-47cc-ba96-f14a8e96f11b|00000000-0000-0000-0000-000000000000",
-      "no_connect_connected|482600|1168400|2397a73f-512e-4a2b-8866-ab93d1d9023d|00000000-0000-0000-0000-000000000000",
-      "no_connect_connected|482600|787400|074f7e7c-3553-4c43-bbd0-da12c12cf493|00000000-0000-0000-0000-000000000000",
-      "no_connect_connected|736600|736600|b1aba842-7bf1-4bc4-a9b4-e9ef61f5333c|00000000-0000-0000-0000-000000000000",
-      "no_connect_connected|736600|889000|426c9971-2a29-4f8a-a4cc-fa004d4fbd9a|00000000-0000-0000-0000-000000000000",
-      "pin_not_driven|736600|812800|192ff726-06f6-427d-a423-90a9d7c8dd8e|00000000-0000-0000-0000-000000000000",
-      "pin_to_pin|584200|635000|fd960c23-ec14-4b35-979e-ecf444838c31|d6279688-a5dd-4136-b710-d27010e863c4",
-      "pin_to_pin|609600|1270000|865bf3db-5ce4-44ca-b2bc-4df1c986208d|3c6b4037-e2e5-42db-883f-04844d731ec8",
-      "pin_to_pin|609600|635000|c6b51223-9695-4641-a253-251ac9d077a3|1450cae7-037a-4c7c-b9ca-fc2e3a0e5f84",
-      "pin_to_pin|635000|635000|36a58b23-5427-4121-aa5d-52c6fdf1ada4|88505203-8682-429f-a235-f2d249f212c3"
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -391,7 +378,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "PCBBikeComputer.kicad_pro",
+    "filename": "tandem-devkit.kicad_pro",
     "version": 1
   },
   "net_settings": {
