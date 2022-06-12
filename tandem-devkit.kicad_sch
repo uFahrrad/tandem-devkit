@@ -2167,9 +2167,6 @@
     (path "/af27d833-7492-473b-b609-10c30f242124/4ba6f319-789e-4814-af36-aa1c0a8797ef"
       (reference "#PWR0308") (unit 1) (value "VCC") (footprint "")
     )
-    (path "/af27d833-7492-473b-b609-10c30f242124/56ca90e8-f4b6-4619-8205-391f56579157"
-      (reference "#PWR0309") (unit 1) (value "GND") (footprint "")
-    )
     (path "/af27d833-7492-473b-b609-10c30f242124/c25b9611-021c-4825-8529-c421b469846b"
       (reference "#PWR0310") (unit 1) (value "VCC") (footprint "")
     )
@@ -2286,6 +2283,12 @@
     )
     (path "/af27d833-7492-473b-b609-10c30f242124/e6926bbe-4d0c-42fa-bf8a-3298f3d90f89"
       (reference "D306") (unit 1) (value "B5819W") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/af27d833-7492-473b-b609-10c30f242124/ec172389-3869-40ba-a389-408d5877c82c"
+      (reference "DISP301") (unit 1) (value "Display_generic") (footprint "project-lib:154_Epaper_Display")
+    )
+    (path "/af27d833-7492-473b-b609-10c30f242124/e6007f63-462c-4b16-a8c5-12fa7c1d5d19"
+      (reference "DISP302") (unit 1) (value "Display_generic") (footprint "project-lib:154_Epaper_Display")
     )
     (path "/af27d833-7492-473b-b609-10c30f242124/f6715c36-aea1-4cca-95fc-5d9496746383"
       (reference "FB301") (unit 1) (value "FerriteBead_Small") (footprint "Resistor_SMD:R_0805_2012Metric")
