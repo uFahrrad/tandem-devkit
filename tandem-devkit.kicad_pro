@@ -65,7 +65,9 @@
           "width": 0.14097
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "items_not_allowed|208500000|73000000|cd00cd90-7258-4c24-b220-9a1b8e4b8ef7|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -73,7 +75,7 @@
         "annular_width": "error",
         "clearance": "error",
         "copper_edge_clearance": "error",
-        "courtyards_overlap": "error",
+        "courtyards_overlap": "ignore",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",

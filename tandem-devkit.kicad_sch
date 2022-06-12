@@ -2240,13 +2240,13 @@
       (reference "C312") (unit 1) (value "1u/50V") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/d5fdcc1b-217f-4399-86f5-956578dadb93/5dbb32a3-e7eb-47ee-8488-41429ea526f0"
-      (reference "D201") (unit 1) (value "TVS Diode") (footprint "Diode_SMD:D_SMB")
+      (reference "D201") (unit 1) (value "P6SMB6.8CA") (footprint "Diode_SMD:D_SMB")
     )
     (path "/d5fdcc1b-217f-4399-86f5-956578dadb93/899e8004-b58b-41b9-a5be-244b9f0ad6e8"
-      (reference "D202") (unit 1) (value "SMBJ5342") (footprint "Diode_SMD:D_SMB")
+      (reference "D202") (unit 1) (value "LBZT52C7V5T1G") (footprint "Diode_SMD:D_SOD-123")
     )
     (path "/d5fdcc1b-217f-4399-86f5-956578dadb93/1bde1976-e78b-4013-be77-d0fe5d371729"
-      (reference "D203") (unit 1) (value "SMBJ5342") (footprint "Diode_SMD:D_SMB")
+      (reference "D203") (unit 1) (value "LBZT52C7V5T1G") (footprint "Diode_SMD:D_SOD-123")
     )
     (path "/d5fdcc1b-217f-4399-86f5-956578dadb93/ae88f471-211a-4ff0-8707-3def05a1a63e"
       (reference "D204") (unit 1) (value "B5819W") (footprint "Diode_SMD:D_SOD-123")
