@@ -2176,14 +2176,8 @@
     (path "/af27d833-7492-473b-b609-10c30f242124/e545de57-3d5e-4ebe-9f61-8a97cd444274"
       (reference "#PWR0312") (unit 1) (value "VCC") (footprint "")
     )
-    (path "/af27d833-7492-473b-b609-10c30f242124/e7a97247-b7a1-405d-b1d2-7125c5db1293"
-      (reference "#PWR0313") (unit 1) (value "GND") (footprint "")
-    )
     (path "/af27d833-7492-473b-b609-10c30f242124/e960ca2f-0fe1-4a50-b63a-262503ddf0a3"
       (reference "#PWR0314") (unit 1) (value "VCC") (footprint "")
-    )
-    (path "/af27d833-7492-473b-b609-10c30f242124/cf8a9089-7ba0-4a5a-9207-516734425ea0"
-      (reference "#PWR0315") (unit 1) (value "GND") (footprint "")
     )
     (path "/af27d833-7492-473b-b609-10c30f242124/b20a8ae9-cb01-4db2-b1e3-2bb3d8a63d1e"
       (reference "#PWR0316") (unit 1) (value "VCC") (footprint "")
