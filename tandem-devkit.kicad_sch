@@ -2054,13 +2054,13 @@
 
   (symbol_instances
     (path "/d5fdcc1b-217f-4399-86f5-956578dadb93/54b2c947-33e8-4ee2-a1d7-d9533ff443c2"
-      (reference "#FLG0101") (unit 1) (value "PWR_FLAG") (footprint "")
+      (reference "#FLG0201") (unit 1) (value "PWR_FLAG") (footprint "")
     )
     (path "/d5fdcc1b-217f-4399-86f5-956578dadb93/1ef970af-a8f3-4648-92f8-1fbe542c4947"
-      (reference "#FLG0102") (unit 1) (value "PWR_FLAG") (footprint "")
+      (reference "#FLG0202") (unit 1) (value "PWR_FLAG") (footprint "")
     )
     (path "/d5fdcc1b-217f-4399-86f5-956578dadb93/d985e4b2-eb4e-4177-bb57-d9ae56959f2b"
-      (reference "#FLG0103") (unit 1) (value "PWR_FLAG") (footprint "")
+      (reference "#FLG0203") (unit 1) (value "PWR_FLAG") (footprint "")
     )
     (path "/546b0f54-b7ac-4efe-9263-370289d0f86b"
       (reference "#PWR0101") (unit 1) (value "+BATT") (footprint "")
@@ -2272,29 +2272,20 @@
     (path "/af27d833-7492-473b-b609-10c30f242124/5c4eaa36-f133-405d-bcf0-3aae7b106de8"
       (reference "D301") (unit 1) (value "WHITE") (footprint "project-lib:LED_sidemount")
     )
-    (path "/af27d833-7492-473b-b609-10c30f242124/0e22c910-599e-4eea-bb78-1d3e916cec6b"
+    (path "/af27d833-7492-473b-b609-10c30f242124/d1866bb3-deac-4c56-942b-b20b62fa568b"
       (reference "D302") (unit 1) (value "WHITE") (footprint "project-lib:LED_sidemount")
     )
-    (path "/af27d833-7492-473b-b609-10c30f242124/d1866bb3-deac-4c56-942b-b20b62fa568b"
+    (path "/af27d833-7492-473b-b609-10c30f242124/b3d0ad12-75e8-40e9-953c-e792bdd05ad4"
       (reference "D303") (unit 1) (value "WHITE") (footprint "project-lib:LED_sidemount")
     )
-    (path "/af27d833-7492-473b-b609-10c30f242124/cd0541be-bfbb-4e64-a697-266018cec315"
-      (reference "D304") (unit 1) (value "WHITE") (footprint "project-lib:LED_sidemount")
-    )
-    (path "/af27d833-7492-473b-b609-10c30f242124/b3d0ad12-75e8-40e9-953c-e792bdd05ad4"
-      (reference "D305") (unit 1) (value "WHITE") (footprint "project-lib:LED_sidemount")
-    )
-    (path "/af27d833-7492-473b-b609-10c30f242124/fe621d2d-004a-4484-824d-02d2466cd836"
-      (reference "D306") (unit 1) (value "WHITE") (footprint "project-lib:LED_sidemount")
-    )
     (path "/af27d833-7492-473b-b609-10c30f242124/99b288ee-b590-4b0d-a5e6-b8c3402d64aa"
-      (reference "D307") (unit 1) (value "B5819W") (footprint "Diode_SMD:D_SOD-123")
+      (reference "D304") (unit 1) (value "B5819W") (footprint "Diode_SMD:D_SOD-123")
     )
     (path "/af27d833-7492-473b-b609-10c30f242124/82aa52db-7cbe-476c-b027-fbdb1edd28a1"
-      (reference "D308") (unit 1) (value "B5819W") (footprint "Diode_SMD:D_SOD-123")
+      (reference "D305") (unit 1) (value "B5819W") (footprint "Diode_SMD:D_SOD-123")
     )
     (path "/af27d833-7492-473b-b609-10c30f242124/e6926bbe-4d0c-42fa-bf8a-3298f3d90f89"
-      (reference "D309") (unit 1) (value "B5819W") (footprint "Diode_SMD:D_SOD-123")
+      (reference "D306") (unit 1) (value "B5819W") (footprint "Diode_SMD:D_SOD-123")
     )
     (path "/af27d833-7492-473b-b609-10c30f242124/f6715c36-aea1-4cca-95fc-5d9496746383"
       (reference "FB301") (unit 1) (value "FerriteBead_Small") (footprint "Resistor_SMD:R_0805_2012Metric")
@@ -2317,11 +2308,14 @@
     (path "/d5fdcc1b-217f-4399-86f5-956578dadb93/7b1e75fc-b651-4c29-a79a-9b914ea0f1d4"
       (reference "J203") (unit 1) (value "Conn_01x05") (footprint "")
     )
+    (path "/af27d833-7492-473b-b609-10c30f242124/a7f47b70-341f-4dbe-be28-4dc965bdccca"
+      (reference "J301") (unit 1) (value "ConnectorLCDFrontLight") (footprint "project-lib:jlcpcb-C11047_FFC_1x04-1MP_P0.50mm_Horizontal")
+    )
     (path "/af27d833-7492-473b-b609-10c30f242124/96e8ed9f-35b2-490b-a656-affdfcdaf936"
-      (reference "J301") (unit 1) (value "FPC24(0.5MM)") (footprint "project-lib:jlcpcb-C11057_FFC_1x24-1MP_P0.50mm_Horizontal")
+      (reference "J302") (unit 1) (value "FPC24(0.5MM)") (footprint "project-lib:jlcpcb-C11057_FFC_1x24-1MP_P0.50mm_Horizontal")
     )
     (path "/af27d833-7492-473b-b609-10c30f242124/d93b1bb6-36ff-4542-858d-6b7f2f1c176e"
-      (reference "J302") (unit 1) (value "FPC10(0.5MM)") (footprint "project-lib:jlcpcb-C11050_FFC_1x10-1MP_P0.50mm_Horizontal")
+      (reference "J303") (unit 1) (value "FPC10(0.5MM)") (footprint "project-lib:jlcpcb-C11050_FFC_1x10-1MP_P0.50mm_Horizontal")
     )
     (path "/d5fdcc1b-217f-4399-86f5-956578dadb93/7c178f84-7da2-4e79-b146-9dc5d286d2ba"
       (reference "JP201") (unit 1) (value "Jumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
@@ -2422,26 +2416,20 @@
     (path "/af27d833-7492-473b-b609-10c30f242124/a2ec8936-2bb0-45bb-bf7a-a099d79c6737"
       (reference "R303") (unit 1) (value "22") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
-    (path "/af27d833-7492-473b-b609-10c30f242124/1a362e47-f00f-4481-9026-42aa9c32262c"
+    (path "/af27d833-7492-473b-b609-10c30f242124/94d4da85-6874-4612-be2e-8e16d9bfadf1"
       (reference "R304") (unit 1) (value "22") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/af27d833-7492-473b-b609-10c30f242124/86e75a90-9fd9-4a9b-b920-423ff681cde9"
       (reference "R305") (unit 1) (value "22") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
-    (path "/af27d833-7492-473b-b609-10c30f242124/94d4da85-6874-4612-be2e-8e16d9bfadf1"
+    (path "/af27d833-7492-473b-b609-10c30f242124/cfd698c3-80c1-4e10-a6d7-805717038266"
       (reference "R306") (unit 1) (value "22") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
-    (path "/af27d833-7492-473b-b609-10c30f242124/cfd698c3-80c1-4e10-a6d7-805717038266"
-      (reference "R307") (unit 1) (value "22") (footprint "Resistor_SMD:R_0603_1608Metric")
-    )
-    (path "/af27d833-7492-473b-b609-10c30f242124/d0591821-0d94-4e3d-bb55-b6959cb0c57e"
-      (reference "R308") (unit 1) (value "22") (footprint "Resistor_SMD:R_0603_1608Metric")
-    )
     (path "/af27d833-7492-473b-b609-10c30f242124/bf2aae44-fb84-4a21-ac7b-79750543e3ef"
-      (reference "R309") (unit 1) (value "0.47") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R307") (unit 1) (value "0.47") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/af27d833-7492-473b-b609-10c30f242124/ceb5cfa1-de0f-4f9a-9fc5-f1e5839401d9"
-      (reference "R310") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R308") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/c7e6a2bf-8c63-4ace-a0ce-9b463a22fbf3"
       (reference "TP101") (unit 1) (value "Capacitive touch slider, 3 pads") (footprint "project-lib:TouchSlider-3_30x13mm-covered")
