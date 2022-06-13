@@ -2432,16 +2432,16 @@
       (reference "TP101") (unit 1) (value "Capacitive touch slider, 3 pads") (footprint "project-lib:TouchSlider-3_30x13mm-covered")
     )
     (path "/d5fdcc1b-217f-4399-86f5-956578dadb93/c53873f5-9695-4025-af4f-ae2b36f12765"
-      (reference "TP201") (unit 1) (value "TestPoint_2Pole") (footprint "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical")
+      (reference "TP201") (unit 1) (value "TestPoint_2Pole") (footprint "project-lib:TestPoint_1x03_P1.27mm")
     )
     (path "/d5fdcc1b-217f-4399-86f5-956578dadb93/a2fb0544-d95c-41d8-b9d9-9e6f40daef54"
-      (reference "TP202") (unit 1) (value "TestPoint_2Pole") (footprint "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical")
+      (reference "TP202") (unit 1) (value "TestPoint_2Pole") (footprint "project-lib:TestPoint_1x03_P1.27mm")
     )
     (path "/af27d833-7492-473b-b609-10c30f242124/2b371f37-1eb1-4232-a254-abe936f288d8"
-      (reference "TP301") (unit 1) (value "TestPoint_2Pole") (footprint "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical")
+      (reference "TP301") (unit 1) (value "TestPoint_2Pole") (footprint "project-lib:TestPoint_1x03_P1.27mm")
     )
     (path "/af27d833-7492-473b-b609-10c30f242124/b7667ad9-97b9-47de-ad1e-8981ef445695"
-      (reference "TP302") (unit 1) (value "TestPoint_2Pole") (footprint "Connector_PinHeader_1.27mm:PinHeader_1x03_P1.27mm_Vertical")
+      (reference "TP302") (unit 1) (value "TestPoint_2Pole") (footprint "project-lib:TestPoint_1x03_P1.27mm")
     )
     (path "/d5fdcc1b-217f-4399-86f5-956578dadb93/5f930c8e-d5bc-48a4-9115-3a9dfe4e2330"
       (reference "U201") (unit 1) (value "AMS1117-ADJ_SOT223") (footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2")
