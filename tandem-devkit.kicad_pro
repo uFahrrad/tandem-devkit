@@ -56,6 +56,8 @@
         }
       ],
       "drc_exclusions": [
+        "courtyards_overlap|165873501|80565001|2245acac-599a-4203-8c7e-85bc60b9d882|cd00cd90-7258-4c24-b220-9a1b8e4b8ef7",
+        "items_not_allowed|208418500|99996000|cd00cd90-7258-4c24-b220-9a1b8e4b8ef7|00000000-0000-0000-0000-000000000000",
         "items_not_allowed|208500000|73000000|cd00cd90-7258-4c24-b220-9a1b8e4b8ef7|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
@@ -87,8 +89,8 @@
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_over_copper": "ignore",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
@@ -381,7 +383,7 @@
     "classes": [
       {
         "bus_width": 12.0,
-        "clearance": 0.3,
+        "clearance": 0.2,
         "diff_pair_gap": 0.3,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.3,
@@ -416,7 +418,7 @@
       },
       {
         "bus_width": 12.0,
-        "clearance": 0.5,
+        "clearance": 0.2,
         "diff_pair_gap": 0.5,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.5,
@@ -424,7 +426,16 @@
         "microvia_diameter": 1.0,
         "microvia_drill": 0.4,
         "name": "Power",
-        "nets": [],
+        "nets": [
+          "+BATT",
+          "/EPD_CURRENT_SENSE",
+          "/LCD_CURRENT_SENSE",
+          "/power-A/V_DYNAMO_AC",
+          "/power-A/V_RECT",
+          "GND",
+          "VBUS",
+          "VCC"
+        ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5,
