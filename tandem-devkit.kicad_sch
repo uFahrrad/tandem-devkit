@@ -2384,10 +2384,10 @@
       (reference "J102") (unit 1) (value "QWIIC I2C Connector") (footprint "project-lib:JST_SHL_SM04B-SHLS-TF_1x04-1MP_P1.00mm_Horizontal")
     )
     (path "/d5fdcc1b-217f-4399-86f5-956578dadb93/07c12313-4548-4085-a89a-89276ed43356"
-      (reference "J201") (unit 1) (value "PCB Receptacle") (footprint "")
+      (reference "J201") (unit 1) (value "PCB Receptacle") (footprint "project-lib:shimano-hub-generator-connector")
     )
     (path "/d5fdcc1b-217f-4399-86f5-956578dadb93/edabc79a-15a2-435e-bac5-22050805987e"
-      (reference "J202") (unit 1) (value "PCB Receptacle") (footprint "")
+      (reference "J202") (unit 1) (value "PCB Receptacle") (footprint "project-lib:shimano-hub-generator-connector")
     )
     (path "/d5fdcc1b-217f-4399-86f5-956578dadb93/7b1e75fc-b651-4c29-a79a-9b914ea0f1d4"
       (reference "J203") (unit 1) (value "Conn_01x05") (footprint "")
