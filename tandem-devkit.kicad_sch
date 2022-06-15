@@ -999,6 +999,7 @@
     )
   )
 
+
   (junction (at 199.39 106.68) (diameter 0) (color 0 0 0 0)
     (uuid 034e511b-8952-485d-a893-d3e259214919)
   )
@@ -1111,7 +1112,6 @@
     (uuid f616fb53-41c6-47ee-a8ae-d1af703e2184)
   )
 
-  (no_connect (at 48.26 78.74) (uuid 12da79f3-abc8-4de7-a69a-48f388be7c2e))
   (no_connect (at 73.66 83.82) (uuid 3ad0086b-2115-4486-a4e3-fb3225d40726))
   (no_connect (at 66.04 63.5) (uuid 6a90b484-6641-4467-8a29-2919d7fc3abd))
 
@@ -1980,7 +1980,7 @@
   (symbol (lib_id "power:GND") (at 61.595 160.02 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 5609672f-1e6a-48cf-a156-8d669026c5a0)
-    (property "Reference" "#PWR?" (id 0) (at 61.595 166.37 0)
+    (property "Reference" "#PWR0110" (id 0) (at 61.595 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 61.595 165.1 0))
@@ -2485,6 +2485,9 @@
     (path "/5c2d26e7-d99d-408e-a6b5-fc989f467c55"
       (reference "#PWR0109") (unit 1) (value "VCC") (footprint "")
     )
+    (path "/5609672f-1e6a-48cf-a156-8d669026c5a0"
+      (reference "#PWR0110") (unit 1) (value "GND") (footprint "")
+    )
     (path "/d5fdcc1b-217f-4399-86f5-956578dadb93/fa0616dd-983c-46a3-85e8-1186c07f2350"
       (reference "#PWR0201") (unit 1) (value "GNDPWR") (footprint "")
     )
@@ -2577,9 +2580,6 @@
     )
     (path "/af27d833-7492-473b-b609-10c30f242124/786081b6-68e5-46fc-bfeb-2091644bbdcd"
       (reference "#PWR0313") (unit 1) (value "VCC") (footprint "")
-    )
-    (path "/5609672f-1e6a-48cf-a156-8d669026c5a0"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/112dc4b6-2daf-4c2e-96c0-b9ba5d7485bd"
       (reference "A101") (unit 1) (value "Adafruit_ItsyBitsi_nrf5240") (footprint "project-lib:Adafruit_ItsyBitsy-nrf52840")
