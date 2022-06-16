@@ -44,8 +44,8 @@
         "silk_text_thickness": 0.15239999999999998,
         "silk_text_upright": false,
         "zones": {
-          "45_degree_only": false,
-          "min_clearance": 1.0
+          "45_degree_only": true,
+          "min_clearance": 0.254
         }
       },
       "diff_pair_dimensions": [
@@ -444,7 +444,6 @@
           "Net-(D204-Pad2)",
           "Net-(D207-Pad1)",
           "Net-(D207-Pad2)",
-          "Net-(J203-Pad1)",
           "VBUS",
           "VCC"
         ],
