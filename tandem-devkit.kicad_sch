@@ -2183,7 +2183,7 @@
     (property "Reference" "R115" (id 0) (at 202.565 107.95 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "15k" (id 1) (at 202.565 111.76 0)
+    (property "Value" "2k2" (id 1) (at 202.565 111.76 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 198.882 110.49 90)
@@ -2414,7 +2414,7 @@
     (property "Reference" "R114" (id 0) (at 196.215 108.585 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "15k" (id 1) (at 196.215 111.76 0)
+    (property "Value" "2k2" (id 1) (at 196.215 111.76 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 196.342 110.49 90)
@@ -2930,10 +2930,10 @@
       (reference "R113") (unit 1) (value "22") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/e81fd5ee-84b2-46cd-8a31-6bfa0b10fff7"
-      (reference "R114") (unit 1) (value "15k") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R114") (unit 1) (value "2k2") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/846991a6-26d3-4f19-93e3-371850340145"
-      (reference "R115") (unit 1) (value "15k") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R115") (unit 1) (value "2k2") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/d5fdcc1b-217f-4399-86f5-956578dadb93/1bda3ed1-0820-41a7-aa64-a117b5c741ee"
       (reference "R201") (unit 1) (value "0") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
