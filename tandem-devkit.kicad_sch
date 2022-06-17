@@ -1863,7 +1863,7 @@
   )
 
   (symbol (lib_id "project-lib:Adafruit_ItsyBitsi_nrf5240-pins-passive") (at 60.96 93.98 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid 112dc4b6-2daf-4c2e-96c0-b9ba5d7485bd)
     (property "Reference" "A101" (id 0) (at 50.8 62.865 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2016,7 +2016,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x01") (at 251.46 151.13 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 3e0342fa-a68d-42cd-a22b-ccf1317d123e)
     (property "Reference" "TP102" (id 0) (at 254 149.8599 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2128,7 +2128,7 @@
   )
 
   (symbol (lib_name "Conn_01x03_2") (lib_id "Connector_Generic:Conn_01x03") (at 59.055 152.4 90) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 5eb9b05b-c77b-413d-86ea-1150f0b0dfae)
     (property "Reference" "J102" (id 0) (at 64.77 151.1299 90)
       (effects (font (size 1.27 1.27)) (justify right) hide)
@@ -2287,7 +2287,7 @@
   )
 
   (symbol (lib_id "project-lib:Adafruit_Feather_nrf52840") (at 60.96 93.98 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid ad58a181-3b5c-47ad-acf3-e05f80ed3f71)
     (property "Reference" "A102" (id 0) (at 50.8 64.77 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2332,7 +2332,7 @@
   )
 
   (symbol (lib_name "Conn_01x03_1") (lib_id "Connector_Generic:Conn_01x03") (at 50.165 152.4 90) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid b101055c-4daa-4c25-ace1-648da01b055e)
     (property "Reference" "J101" (id 0) (at 55.88 151.1299 90)
       (effects (font (size 1.27 1.27)) (justify right) hide)
@@ -2368,7 +2368,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x03") (at 213.36 153.67 0) (unit 1)
-    (in_bom yes) (on_board yes)
+    (in_bom no) (on_board yes)
     (uuid c7e6a2bf-8c63-4ace-a0ce-9b463a22fbf3)
     (property "Reference" "TP101" (id 0) (at 208.915 147.32 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2388,7 +2388,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 84.455 152.4 90) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid d65d0648-9caf-48a8-a5f7-2e07080e3aea)
     (property "Reference" "J104" (id 0) (at 85.725 146.05 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -2428,7 +2428,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x06") (at 70.485 152.4 90) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid e95b30be-c55c-4c78-9932-8a6370cf2f1d)
     (property "Reference" "J103" (id 0) (at 76.2 151.1299 90)
       (effects (font (size 1.27 1.27)) (justify right) hide)
@@ -3002,16 +3002,16 @@
       (reference "TP102") (unit 1) (value "Capacitive touch button") (footprint "project-lib:CapBtn_Board_edge")
     )
     (path "/d5fdcc1b-217f-4399-86f5-956578dadb93/c53873f5-9695-4025-af4f-ae2b36f12765"
-      (reference "TP201") (unit 1) (value "TestPoint_2Pole") (footprint "project-lib:TestPoint_1x03_P1.27mm")
+      (reference "TP201") (unit 1) (value "TestPoint_3Pole") (footprint "project-lib:TestPoint_1x03_P1.27mm")
     )
     (path "/d5fdcc1b-217f-4399-86f5-956578dadb93/a2fb0544-d95c-41d8-b9d9-9e6f40daef54"
-      (reference "TP202") (unit 1) (value "TestPoint_2Pole") (footprint "project-lib:TestPoint_1x03_P1.27mm")
+      (reference "TP202") (unit 1) (value "TestPoint_3Pole") (footprint "project-lib:TestPoint_1x03_P1.27mm")
     )
     (path "/af27d833-7492-473b-b609-10c30f242124/2b371f37-1eb1-4232-a254-abe936f288d8"
-      (reference "TP301") (unit 1) (value "TestPoint_2Pole") (footprint "project-lib:TestPoint_1x03_P1.27mm")
+      (reference "TP301") (unit 1) (value "TestPoint_3Pole") (footprint "project-lib:TestPoint_1x03_P1.27mm")
     )
     (path "/af27d833-7492-473b-b609-10c30f242124/b7667ad9-97b9-47de-ad1e-8981ef445695"
-      (reference "TP302") (unit 1) (value "TestPoint_2Pole") (footprint "project-lib:TestPoint_1x03_P1.27mm")
+      (reference "TP302") (unit 1) (value "TestPoint_3Pole") (footprint "project-lib:TestPoint_1x03_P1.27mm")
     )
     (path "/d5fdcc1b-217f-4399-86f5-956578dadb93/5f930c8e-d5bc-48a4-9115-3a9dfe4e2330"
       (reference "U201") (unit 1) (value "AMS1117-ADJ_SOT223") (footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2")
