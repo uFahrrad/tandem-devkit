@@ -5636,7 +5636,7 @@
   (gr_text "Experiment with display and\nside-mount LEDs in this area" (at 144.9 79.1) (layer "B.SilkS") (tstamp 0fde3d49-dda8-42a5-a9c1-79b23ddf1ac1)
     (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
   )
-  (gr_text "Remove R205 and R213\nwhen using external\npower supply board." (at 158.2 32.1) (layer "B.SilkS") (tstamp 34dcf086-ada1-4e09-a290-84b0cbe54326)
+  (gr_text "Remove R205 and R213 when using\nexternal power supply board." (at 158.75 33.02) (layer "B.SilkS") (tstamp 34dcf086-ada1-4e09-a290-84b0cbe54326)
     (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
   )
   (gr_text "Button 3" (at 153.35 83.4) (layer "F.SilkS") (tstamp 1c52ac18-f7df-4c95-9828-96916110c3ca)
