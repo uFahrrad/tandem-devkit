@@ -2848,13 +2848,13 @@
       (reference "D207") (unit 1) (value "BLUE") (footprint "LED_SMD:LED_0805_2012Metric")
     )
     (path "/af27d833-7492-473b-b609-10c30f242124/5c4eaa36-f133-405d-bcf0-3aae7b106de8"
-      (reference "D301") (unit 1) (value "WHITE") (footprint "project-lib:LED_sidemount")
+      (reference "D301") (unit 1) (value "WHITE") (footprint "project-lib:LED_sidemount_C205440")
     )
     (path "/af27d833-7492-473b-b609-10c30f242124/d1866bb3-deac-4c56-942b-b20b62fa568b"
-      (reference "D302") (unit 1) (value "WHITE") (footprint "project-lib:LED_sidemount")
+      (reference "D302") (unit 1) (value "WHITE") (footprint "project-lib:LED_sidemount_C205440")
     )
     (path "/af27d833-7492-473b-b609-10c30f242124/b3d0ad12-75e8-40e9-953c-e792bdd05ad4"
-      (reference "D303") (unit 1) (value "WHITE") (footprint "project-lib:LED_sidemount")
+      (reference "D303") (unit 1) (value "WHITE") (footprint "project-lib:LED_sidemount_C205440")
     )
     (path "/af27d833-7492-473b-b609-10c30f242124/99b288ee-b590-4b0d-a5e6-b8c3402d64aa"
       (reference "D304") (unit 1) (value "B5819W") (footprint "Diode_SMD:D_SOD-123")
