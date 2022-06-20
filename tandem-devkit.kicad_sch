@@ -2753,7 +2753,7 @@
       (reference "C205") (unit 1) (value "22u") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/af27d833-7492-473b-b609-10c30f242124/000d25b5-f0bb-48ad-9549-035bcf3437fe"
-      (reference "C301") (unit 1) (value "4.7u/50V") (footprint "Capacitor_SMD:C_0805_2012Metric")
+      (reference "C301") (unit 1) (value "4.7u/50V") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/af27d833-7492-473b-b609-10c30f242124/bc0a2c34-e043-43a7-9a1c-d47635a9501f"
       (reference "C302") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0603_1608Metric")
