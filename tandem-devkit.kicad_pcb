@@ -5,6 +5,16 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "22  μFahrrad Tandem Devkit")
+    (date "2022-06-21")
+    (rev "0.1")
+    (comment 1 "Daniel Wagenknecht")
+    (comment 2 "CERN Open Hardware Licence Version 2 - Strongly Reciprocal")
+    (comment 3 "CERN-OHL-S-2.0 https://spdx.org/licenses/CERN-OHL-S-2.0.html")
+    (comment 4 "https://codeberg.org/uFahrrad/tandem-devkit")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (1 "In1.Cu" power)
@@ -1335,7 +1345,7 @@
     (fp_arc (start 30 -24.803362) (mid 31.407999 -24.436724) (end 32.79491 -23.996993) (layer "Edge.Cuts") (width 0.05) (tstamp 71630022-6932-4a4d-b8ef-ff5b2b63074f))
     (fp_arc (start 46.190086 -18.7) (mid 47.148039 -17.498274) (end 47.490086 -16) (layer "Edge.Cuts") (width 0.05) (tstamp 75a40b07-d2a5-4954-ad29-8ea5b97328e1))
     (fp_arc (start 34.801615 -24.816575) (mid 34.007605 -23.894221) (end 32.79491 -23.996993) (layer "Edge.Cuts") (width 0.05) (tstamp 86d0373c-5835-4c9a-992b-07360136236f))
-    (fp_arc (start 27.666822 -31.00341) (mid 29.316689 -30.377074) (end 30 -28.75) (layer "Edge.Cuts") (width 0.05) (tstamp bc577207-d1da-46ea-9313-5d1ae225e44b))
+    (fp_arc (start 27.666822 -31.00341) (mid 29.316654 -30.377068) (end 30 -28.75) (layer "Edge.Cuts") (width 0.05) (tstamp bc577207-d1da-46ea-9313-5d1ae225e44b))
     (fp_arc (start -33.009914 -24) (mid -31.518902 -24.496638) (end -30 -24.9) (layer "Edge.Cuts") (width 0.05) (tstamp f0e40fae-490a-405a-8102-2d2e2ddeee7b))
     (fp_arc (start -30 -28.65) (mid -29.348713 -30.348713) (end -27.65 -31) (layer "Edge.Cuts") (width 0.05) (tstamp fe60bd10-6492-412f-85ba-522758378099))
     (model "${KICAD6_USER_3DMODEL_DIR}/hub-wire-connector.step"

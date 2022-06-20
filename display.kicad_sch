@@ -11,6 +11,7 @@
     (comment 1 "Daniel Wagenknecht")
     (comment 2 "CERN Open Hardware Licence Version 2 - Strongly Reciprocal")
     (comment 3 "CERN-OHL-S-2.0 https://spdx.org/licenses/CERN-OHL-S-2.0.html")
+    (comment 4 "https://codeberg.org/uFahrrad/tandem-devkit")
   )
 
   (lib_symbols
@@ -1358,7 +1359,6 @@
       )
     )
   )
-
 
   (junction (at 95.25 137.16) (diameter 0) (color 0 0 0 0)
     (uuid 06baab95-8a99-472a-994d-c08f751cfef7)
