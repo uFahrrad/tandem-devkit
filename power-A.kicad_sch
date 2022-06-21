@@ -2284,7 +2284,7 @@
     (property "Value" "BLUE" (id 1) (at 258.445 94.9324 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "LED_SMD:LED_0805_2012Metric" (id 2) (at 255.27 92.075 0)
+    (property "Footprint" "LED_SMD:LED_0603_1608Metric" (id 2) (at 255.27 92.075 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 255.27 92.075 0)

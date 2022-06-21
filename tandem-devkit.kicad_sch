@@ -2845,7 +2845,7 @@
       (reference "D206") (unit 1) (value "B5819W") (footprint "Diode_SMD:D_SOD-123")
     )
     (path "/d5fdcc1b-217f-4399-86f5-956578dadb93/9994ef94-0c8e-4048-a3ab-13675ffaa698"
-      (reference "D207") (unit 1) (value "BLUE") (footprint "LED_SMD:LED_0805_2012Metric")
+      (reference "D207") (unit 1) (value "BLUE") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/af27d833-7492-473b-b609-10c30f242124/5c4eaa36-f133-405d-bcf0-3aae7b106de8"
       (reference "D301") (unit 1) (value "WHITE") (footprint "project-lib:LED_sidemount_C205440")
