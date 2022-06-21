@@ -1,0 +1,27 @@
+# This file is used to keep the github mirror up to date. Having it in-tree in
+# the default branch allows using just the default GITHUB_TOKEN without the need
+# for any special access tokens thus keeping the overhead minimal.
+name: 'mirror'
+on:
+  push:
+    branches:
+        - __mirror
+  schedule:
+    # Run everyday at 3:37 AM UTC
+    - cron: '37 3 * * *'
+  workflow_dispatch:
+
+jobs:
+  repo-sync:
+    # guard this job with out organization name, so we don't cause problems for
+    # github users cloning our repo
+    if: github.repository_owner == 'uFahrrad'
+    runs-on: ubuntu-latest
+    steps:
+    - name: repo-sync
+      uses: uFahrrad/git-sync@v4
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        source_repo: "https://codeberg.org/$GITHUB_REPOSITORY"
+        destination_repo: "https://mirror:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY"
